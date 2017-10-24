@@ -33,11 +33,13 @@
             max-width: 1200px;
             min-width: 320px;
         }
-        
+        .thumbs {
+             display: flex; 
+  	        flex-wrap: wrap; 
+            justify-content: flex-start;
+        }
         .video {
             width: 175px;
-            float: left;
-            display: inline;
             margin: 15px 7px 0 0;
         }
         .caption {
@@ -83,15 +85,13 @@
 </head>
 
 <body>   
-
-
 <div class="container">
- 
-<div class="row clearfix">
-<div class="column full nopadding">
     
-    <h2>Recommended</h2>
+<h2>Recommended</h2>
+    
 
+<div class="thumbs">
+    
     <div class="video">
         <img src="images/video.jpg" alt="Video Thumbnail">
         <p class="caption"><a href="#">Eddie Vedder Goes Off on Violent Fan - La Sports Ar...</a></p>
@@ -137,9 +137,7 @@
         <p class="caption"><a href="#">Eddie Vedder Goes Off on Violent Fan - La Sports Ar...</a></p>
         <p class="description">by <a href="#" class="author">Will McClain</a> <span class="views">69,961 views</span> 2 months ago</p>
     </div>
-    
-</div>
-</div>    
+</div>  
     
 </div><!--close container --> 
 </body>
