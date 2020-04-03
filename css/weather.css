@@ -1,0 +1,90 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.menu {
+    width: 165px;
+    font-family:sans-serif;
+    font-size: .85em;
+    line-height: 1.25em;
+}
+
+
+/* Basic Styling for all the nav elements */
+nav ul {
+    width:100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li a:link, nav li a:visited {
+    color:#1f5ad0;
+    text-decoration:none;
+    font-weight: 600;
+    display:block;
+    padding: 5px 15px;
+}
+nav li a:hover {
+    background-color: #1f5ad0;  
+    color:#fff;
+}
+
+
+/* Top Blue Box */
+.box {
+    background-color: rgb(31, 90, 208); 
+    padding: 5px 25px 4px 15px;
+    margin: 0;
+}
+.box p {
+    color: #dedede; 
+    margin: 5px 0; 
+    line-height: 1.4em;
+}
+.box.whiteborder {
+    border-bottom: solid thin rgba(222, 222, 222, .35);
+} 
+.box.hourly {
+    text-align: right;
+    padding-right: 0;
+}   
+.box.hourly a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-caret-right {
+    color: rgba(255, 255, 255, .5);
+    padding:0px 15px 0 10px;
+}
+
+
+/* Plain White Menu */
+.whitemenu {
+    margin: 10px 0 1px 0; 
+    background-color: rgba(255, 255, 255, .9);
+    border: solid thin rgba(222, 222, 222, .5);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, .5);
+}
+
+
+/* Light Blue Bottom Menu Section */
+.bluemenu {
+    background-color: #e3eff9;
+    padding: 0 0 10px 0;
+}
+.fa-cog {
+    float: right;
+    color: rgb(31, 90, 208);
+}
+.forecast li a {
+    color: #333 !important;
+}
+.forecast li a:hover {
+    color: #fff !important;
+}
+.forecast .darkborder {
+    border-bottom: solid thin rgba(100, 100, 100, .25);
+    margin: 0 15px 0 15px;
+} 

@@ -1,0 +1,113 @@
+* {
+    font-family:sans-serif;
+}
+body {
+    background-color: #edf0f5;
+    color: #303030;
+}
+h1 {
+    font-size:2.25em;
+    margin: 0;
+}
+h2 {
+    font-size:1.25em;
+    margin: 5px 0;
+    font-weight: 1000;
+}
+a {
+    color:#3b62bb;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:underline;
+}
+.signup {
+    width: 400px;
+    padding: 10px 0 25px 10px;
+    margin: 0 0 40px 0;
+    border-bottom: 2px solid #999;
+}
+
+
+/* Input Fields */
+.names {
+    display: flex;
+    align-content: stretch;
+    margin: 10px 0 0 0;
+}
+.names input {
+    flex-grow: 1;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 10px 0;
+}
+.info input {
+    flex-basis: 100%;
+}
+.names input, .info input {
+    width: 100%;
+    font-size: 1.25em;
+    color: #bdc7d8;
+    padding: 5px;
+    margin: 5px 10px 5px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: solid thin #bdc7d8;
+}
+
+
+/* 
+    Birthday Drop Down Options and 
+    Gender Radio Buttons 
+*/
+.date {
+    display: flex;
+}
+.date .birthday {
+    margin-right: 10px
+}
+select {
+    font-size: 1em;
+    padding: 0px 0;
+    margin: 0;
+}
+.gender {
+    margin: 10px 0 15px 0;
+}
+.gender label {
+    font-size:1em;
+    padding: 0 20px 0 2px;
+}
+.fineprint {
+    font-size: .75em;   
+    color: #666;
+    line-height: 1.35em;
+}
+
+
+/* Sign Up Button */
+.button {
+    width: 50%;
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    font-size: 1.15em;
+    padding: 10px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: solid thin #2c5115;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+
+    background-image: -moz-linear-gradient(top, #66ab54, #578843);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#66ab54), to(#578843));
+    background-image: -webkit-linear-gradient(top, #66ab54, #578843);
+    background-image: -o-linear-gradient(top, #66ab54, #578843);
+    background-image: linear-gradient(to bottom, #66ab54, #578843);
+    background-repeat: repeat-x;
+
+    -webkit-box-shadow: inset -1px 2px 1px rgba(255, 255, 255, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
